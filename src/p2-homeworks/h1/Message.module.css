@@ -1,0 +1,17 @@
+.message {
+    display: flex;
+
+
+}
+.message img {
+    width: 100px;
+    border-radius: 20px;
+}
+.time{
+
+}
+/*#pond {*/
+/*    display: flex;*/
+/*    flex-flow:column-reverse wrap-reverse;*/
+/*}*/
+
