@@ -6,6 +6,7 @@ export const homeWorkReducer = (state: any, action: any): any => { // need to fi
         }
         case 'check': {
             // need to fix
+            {action}
             return state
         }
         default: return state
