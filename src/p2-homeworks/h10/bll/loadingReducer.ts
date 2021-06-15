@@ -5,7 +5,7 @@ type ActionsType =
 
 
 const initState = {
-    loading: true,
+    loading: false,
 
 }
 export type InitialStateType = typeof initState
