@@ -9,22 +9,34 @@ type SuperDoubleRangePropsType = {
 
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     {
+
         onChangeRange, value,
         // min, max, step, disable, ...
     }
 ) => {
-    // сделать самому, можно подключать библиотеки
-    const handleChange = (event: any, newValue: number | number[]) => {
-        setValue(newValue as number[]);
-    };
+    //сделать самому, можно подключать библиотеки
+    // const handleChange = (event: any, newValue: number | number[]) => {
+    //     //setValue(newValue as number[]);
+    // };
+    // function valuetext(value: number) {
+    //     return `${value}°C`;
+    // }
     function valuetext(value: number) {
         return `${value}°C`;
     }
+
+    function RangeSlider() {
+        const [value, setValue] = React.useState<number[]>([20, 37]);
+
+        const handleChange = (event: any, newValue: number | number[]) => {
+            (newValue as number[]);
+        };
+
     return (
         <>
             {/*DoubleRange*/}
             <Typography id="range-slider" gutterBottom>
-                Temperature range
+
             </Typography>
             <Slider
                 value={value}
