@@ -37,7 +37,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
             </Typography>
             <Slider
                 style={{
-                    color: 'red',
+                    color: 'blueGrey',
                     width: 500
                 }}
                 value={value}
