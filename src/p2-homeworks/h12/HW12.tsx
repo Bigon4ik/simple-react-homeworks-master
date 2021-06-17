@@ -1,12 +1,14 @@
 import React from "react";
 import s from "./HW12.module.css";
-import {useDispatch} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 
 const themes = ['dark', 'red', 'some'];
 
 function HW12() {
     const theme = 'some'; // useSelector
 const dispatch=useDispatch()
+const log=useSelector(()=>{})
+
     // useDispatch, onChangeCallback
 
     return (
