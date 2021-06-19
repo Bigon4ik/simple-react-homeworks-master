@@ -11,4 +11,4 @@ export const themeReducer = (state = initState, action: any): any => { // fix an
     }
 };
 
-export const changeThemeC = (): any => {}; // fix any
+export const changeThemeC = (action:any): any => {}; // fix any
