@@ -1,10 +1,16 @@
 import React from 'react';
-import s from './HW13.module.css';
+import {Request} from './Request /Request';
 
 export function HW13() {
     return (
-        <div className={''}>
-
+        <div>
+            <hr/>
+            <span>
+    homeworks 13
+</span>
+            <div>
+                <Request/>
+            </div>
         </div>
     );
 }
