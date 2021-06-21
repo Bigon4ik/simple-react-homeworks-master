@@ -21,7 +21,7 @@ export function Request() {
 
     return (
         <div className={s.body}>
-            <div>{`Ansver with server: ${JSON.stringify(state)} `}</div>
+            <div>{`Response with server: ${JSON.stringify(state)} `}</div>
             <div>
                 <SuperCheckbox
                 checked={success}
